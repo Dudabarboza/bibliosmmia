@@ -75,12 +75,15 @@ input[type=submit]{
     align-items: center;
 }
 
-footer{
+.footer{
     width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
     bottom: 0;
     position: fixed;
-
 }
 
 .icons{
