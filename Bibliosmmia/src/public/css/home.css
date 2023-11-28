@@ -92,7 +92,6 @@ main{
 .input-emprestimo, .input-devolucao{
     width: 300px;
     height: 45px;
-
 }
 
 .input-emprestimo{
@@ -102,7 +101,7 @@ main{
     border-radius: 8px;
 
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -114,7 +113,7 @@ main{
     border-radius: 8px;
 
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
