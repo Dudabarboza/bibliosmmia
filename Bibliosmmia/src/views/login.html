@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="../public/assets/Group 1.svg" alt="">
+            <p class="logo-name">Bibliosmmia</p>
+        </div>
+
+       <div class="welcome-login">
+        <h1 class="welcome">Bem vindo!</h1>
+        <p class="login-p">Login</p>
+       </div>
+    </header>
+
+    <main>
+        <form class="login-form" id="form" action="">
+            <input type="text" name="email" placeholder="E-mail" class="required" oninput="emailValidate()">
+            <span class="span-required">Insira um E-mail válido.</span>
+            <input type="password" name="password" placeholder="Senha" class="required" oninput="mainPasswordValidate()">
+            <span class="span-required">A senha deve conter no mínimo 8 caracteres.</span>
+            <a href="./paginaInicial.html"><input class="input-login" type="submit" name="submit" value="Login"></a>
+        </form>
+    </main>
+
+    <footer>
+        <a href="./cadastro.html" class="noAccount">Não possui uma conta?Clique aqui!</a>
+    </footer>
+</body>
+</html>

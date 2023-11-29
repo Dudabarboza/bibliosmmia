@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    top: 40px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin-top: 40px;
+}
+
+form h2{
+    font-size: 16px;
+    margin: 0px 50px;
+}
+
+form h2:nth-child(3), form h2:nth-child(5){
+    margin-top: 10px;
+}
+
+form input[type=text]{
+    width: 330px;
+    height: 55px;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+form input[type=submit]{
+    background-color: #1A244D;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin: 214px 0px 0px 47px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#livrosD {
+    margin-right: 100px;
+}
+
+main div{
+    min-height: 140px;
+    max-height: 150px;
+    min-width: 300px;
+    max-width: 310px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+main button{
+    width: 300px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #561E85;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+main a:nth-child(4){
+    padding: 10px 0px 10px 0px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    padding: 20px 35px;
+    max-height: 150px;
+    min-height: 55px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+}
+
+.icons{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
