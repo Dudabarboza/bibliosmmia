@@ -56,6 +56,20 @@ form{
     gap: 10px;
 }
 
+.confirmacoes li {
+    font-size: 14px;
+    display: flex;
+}
+
+.confirmacoes input {
+    width: 16px;
+    height: 16px;
+}
+
+input:checked{
+    background-color: #33A0B8;
+}
+
 input[type=submit]{
     background-color: #3B7906;
 
