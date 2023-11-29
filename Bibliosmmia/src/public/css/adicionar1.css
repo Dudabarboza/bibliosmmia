@@ -22,48 +22,6 @@ header{
     align-items: center;
 }
 
-.progress-bar{
-    display: flex;
-    align-items: center;
-    width: 64vw;
-    height: .5vh;
-    margin-bottom: 7vh;
-    border-radius: 10px;
-    background-color: #D2D5DA;
-}
-.progress-bar::before{
-    border-radius: 10px;
-    content: "";
-    height: .4vh;
-    width: 33%;
-    background-color: #33A0B8;
-}
-.bolas{
-    display: flex;
-    justify-content: space-between;
-    width: 65vw;
-}
-.bola1{
-    background-color: #33A0B8;
-    border-radius: 40px;
-    margin-bottom: -15px;
-    width: 30px;
-    height: 30px;
-}
-.bola2{
-    border:  1px solid red;
-    border-radius: 40px;
-    margin-bottom: -15px;
-    width: 30px;
-    height: 30px;
-}
-.bola3{
-    border:  1px solid red;
-    border-radius: 40px;
-    margin-bottom: -15px;
-    width: 30px;
-    height: 30px;
-}
 main{
     display: flex;
     flex-direction: column;
@@ -84,12 +42,31 @@ form input[type=text]{
     font-family: 'Montserrat', sans-serif;
 }
 
+select{
+    width: 330px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    /* color: #000000; */
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 p{
     font-weight: 600;
 }
 
 form{
     width: 100%;
+    height: 350px;
 
     display: flex;
     flex-direction: column;
@@ -99,7 +76,7 @@ form{
 }
 
 input[type=submit]{
-    background-color: #3B7906;
+    background-color: #561E85;
 
     width: 300px;
     height: 50px;

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/emprestimo1.css">
-    <title>Novo Empréstimo</title>
+    <link rel="stylesheet" href="../public/css/adicionar1.css">
+    <title>Novo produto</title>
 </head>
 <body>
     <header>
         <a href="./home.html"><img src="../public/assets/caret-left.svg" alt=""></a>
-        <p class="title">Gerar novo empréstimo:</p>
+        <p class="title">Adicione um novo produto:</p>
     </header>
 
     <main>
@@ -18,19 +18,28 @@
 
         </div>
 
-        <form class="emprestimo1-form" id="form" action="">
-            <p>Responsável - Biblioteca:</p>
-            <input type="text" name="funcionario" placeholder="Digite aqui" class="required">
-            <p>Número de identificação - Livro:</p>
-            <input type="text" name="num-livro" placeholder="Digite aqui" class="required">
-            <p>Título do livro:</p>
+        <form class="adicionar1-form" id="form" action="">
+            <p>Categoria:</p>
+            <select>
+                <div class="option">
+                    <option value=""></option>
+                    <option value="livro">Livros</option>
+                    <option value="folhetos">Folhetos Técnicos</option>
+                    <option value="periodicos">Períodicos</option>
+                </div>
+            </select>
+            <p>Título:</p>
+            <input type="text" name="titulo-produto" placeholder="Digite aqui" class="required">
+            <p>Autor:</p>
+            <input type="text" name="autor-produto" placeholder="Digite aqui" class="required">
+            <p>Editora:</p>
             <input type="text" name="title-livro" placeholder="Digite aqui" class="required">
         </form>
 
     </main>
 
     <footer class="footer">
-        <a href="./emprestimo2.html"><input class="input-continue" type="submit" value="Continuar"></a>
+        <a href="./adicionar2.html"><input class="input-continue" type="submit" value="Continuar"></a>
 
         <div class="icons">
             <a href="./home.html"> <img src="../public/assets/icons8-casa (1).svg" alt=""></a>
